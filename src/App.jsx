@@ -28,7 +28,7 @@ function App() {
 
             {/* Home route (default page content) */}
             <Route
-              path="/"
+              path="/-E-Commerce/"
               element={
                 <>
                   <OfferZone />
