@@ -7,5 +7,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: '/-E-Commerce/'   // 👈 VERY IMPORTANT
+  base: '/'   // 👈 VERY IMPORTANT
 })
