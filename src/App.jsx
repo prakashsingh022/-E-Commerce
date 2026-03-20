@@ -8,7 +8,7 @@ import Collection from './Component/Collection';
 import ExploreAndBuy from './Component/ExploreAndBuy';
 import SuitSet from './Component/SuitSet';
 import LuxeSet from './Component/LuxeSet';
-import Footer1 from './Component/Footer1.JSX';
+import medilinformation from './Component/medilinformation';
 import Detailsprod from './Component/detailsprod';
 import HappyCustomers from './Component/HappyCustomers';
 import Footer2 from './Component/Footer2';
@@ -36,7 +36,7 @@ function App() {
                   <ExploreAndBuy />
                   <SuitSet />
                   <LuxeSet />
-                  <Footer1 />
+                  <medilinformation/>
                   <Detailsprod />
                   <HappyCustomers />
                 </>
