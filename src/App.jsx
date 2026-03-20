@@ -3,13 +3,13 @@ import Header from './Component/Header'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import OfferZone from './Component/Offerzone';
+import OfferZone from './Component/OfferZone';
 import Collection from './Component/Collection';
 import ExploreAndBuy from './Component/ExploreAndBuy';
 import SuitSet from './Component/SuitSet';
 import LuxeSet from './Component/LuxeSet';
-import Medilinformation from './Component/Medilinformation';
-import Detailsprod from './Component/detailsprod';
+import MedilinFormation from './Component/MedilinFormation';
+import DetailsProd from './Component/DetailsProd';
 import HappyCustomers from './Component/HappyCustomers';
 import Footer2 from './Component/Footer2';
 import LoginPage from './pages/LoginPage';
@@ -36,8 +36,8 @@ function App() {
                   <ExploreAndBuy />
                   <SuitSet />
                   <LuxeSet />
-                  <Medilinformation/>
-                  <Detailsprod />
+                  <MedilinFormation/>
+                  <DetailsProd />
                   <HappyCustomers />
                 </>
               }
